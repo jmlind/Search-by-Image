@@ -1,0 +1,13 @@
+{
+	"name": "Search By Image",
+	"description": "Lets you do a search using an image on the web through Google",
+	"version": "1",
+	"permissions":[
+		"contextMenus"
+	],
+	"background_page": "background.html",
+	"icons": {
+		"16": "search-s.png",
+		"48": "search-m.png"
+	}
+}
