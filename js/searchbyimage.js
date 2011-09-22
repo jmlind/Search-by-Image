@@ -7,5 +7,5 @@ function searchByImage(info, tab) {
 	chrome.tabs.create({"url":url});
 }
 
-chrome.contextMenus.create({"title":"Google Search by Image",
-							"contexts":["image"], "onclick": searchByImage });
+chrome.contextMenus.create({"title":"Google Search by Image", 
+	"contexts":["image"], "onclick": searchByImage });
